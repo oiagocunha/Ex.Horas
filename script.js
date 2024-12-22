@@ -9,15 +9,15 @@ function carregar() {
 
   if (hora >= 0 && hora < 12) {
     // Bom dia
-    img.src = "Images/Manha.jpg";
+    img.src = "images/Manha.jpg";
     document.body.style.background = "#e2cd9f";
   } else if (hora >= 12 && hora < 18) {
     // Boa tarde
-    img.src = "Images/Tarde.jpg";
+    img.src = "images/Tarde.jpg";
     document.body.style.background = "#b9846f";
   } else {
     // Boa noite
-    img.src = "Images/Noite.jpg";
+    img.src = "images/Noite.jpg";
     document.body.style.background = "#302E26";
   }
 }
