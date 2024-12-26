@@ -1,0 +1,39 @@
+# Exercício de Horas
+
+Este é um projeto simples de um site que exibe a hora atual e altera a imagem e o fundo da página de acordo com o período do dia (manhã, tarde ou noite).
+
+## Estrutura do Projeto
+
+- `index.html`: Arquivo HTML principal que estrutura a página.
+- `style.css`: Arquivo CSS que define o estilo da página.
+- `script.js`: Arquivo JavaScript que contém a lógica para atualizar a hora e alterar a imagem e o fundo da página.
+- `images/`: Diretório que contém as imagens utilizadas no projeto.
+
+## Como Funciona
+
+1. Quando a página é carregada, a função `carregar()` em `script.js` é executada.
+2. A função obtém a hora atual e atualiza o conteúdo do elemento com id `msg` para exibir a hora.
+3. Dependendo da hora do dia, a função altera a imagem exibida e a cor de fundo da página:
+   - Manhã (0h - 12h): Exibe a imagem `Manha.jpg` e altera o fundo para `#e2cd9f`.
+   - Tarde (12h - 18h): Exibe a imagem `Tarde.jpg` e altera o fundo para `#b9846f`.
+   - Noite (18h - 24h): Exibe a imagem `Noite.jpg` e altera o fundo para `#302E26`.
+
+## Estrutura de Arquivos
+
+| images/ 
+|   ├── Manha.jpg  
+|   ├── Tarde.jpg  
+|   └── Noite.jpg  
+├ index.html  
+├ readme  
+├ script.js  
+└ style.css  
+
+## Acesso Público
+
+Este site está público e pode ser acessado através do seguinte domínio: [https://oiagocunha.github.io/Ex.Horas/]
+
+## Autor
+
+- Iago Cunha.
+- Curso em Vídeo.
